@@ -1,0 +1,91 @@
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(16, 16, 230, 0.533);
+    color: whitesmoke;
+    
+}
+.header > ul {
+    display: flex;    
+}
+.header > ul > li {
+    list-style: none;
+    margin: 10px;
+}
+
+.album_example {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: center;*/
+    
+}
+
+
+
+#read {
+    color: blue;
+    text-decoration: none;
+}
+
+#read:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+#bookmark {
+    color: blue;
+    text-decoration: none;
+}
+
+#bookmark:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.fa {
+    margin: 10px;
+}
+
+.read_bookmark, .like_share_more {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: medium;
+}
+
+footer {
+    text-align: center;
+}
+
+
+
+.album_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main > h4 {
+    text-align: center;
+    
+}
+
+.album_card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+  
+.album_card img {
+    width: 100%;
+    height: auto;
+}
+  
+.album_card p {
+    margin-top: 10px;
+}
